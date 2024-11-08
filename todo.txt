@@ -1,0 +1,10 @@
+Addon features:
+    Add snapping to standard values
+    Rework chart to 4 canvases on top of each other (performance)
+    Gestures on chart (zoom / pan)
+
+Filters:
+    Add inductor impedance
+
+Knobs:
+    Knobs improvement: min/max edit

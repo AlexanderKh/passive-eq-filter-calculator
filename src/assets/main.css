@@ -1,0 +1,63 @@
+@import './base.css';
+
+:root {
+  --backround-color: #ffffff;
+  --section-background-color: #fafafa;
+  --border-color: #000000;
+  --accent-color: #000000;
+  --scrollbar-accent: #a9a9a9;
+  --section-border-radius: 4px;
+}
+.dark {
+  --backround-color: #282828;
+  --section-background-color: #373737;
+  --border-color: #cdcdcd;
+  --accent-color: #e6e6e6;
+  --scrollbar-accent: #e2e2e2;
+}
+
+body {
+  background-color: var(--backround-color);
+}
+
+#app {
+  font-size: 13px;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  font-weight: normal;
+  background-color: var(--backround-color);
+  color: var(--accent-color);
+  scrollbar-color: var(--scrollbar-accent) var(--section-background-color);
+}
+
+input {
+  background-color: var(--backround-color);
+  color: var(--accent-color);
+  border: 1px solid var(--border-color);
+  border-radius: 2px;
+  font-size: 12px;
+}
+
+@media (max-width: 800px) {
+  #app {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media (max-width: 600px) {
+  #app {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
+@keyframes scale-ex {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}

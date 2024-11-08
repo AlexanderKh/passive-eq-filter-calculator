@@ -1,0 +1,7 @@
+{
+  "inputs": ["./package.json"],
+  "append": ["./extra-licenses.txt"],
+  "output": "./THIRD-PARTY-LICENSES.txt",
+  "overwrite": true,
+  "ci": true
+}
